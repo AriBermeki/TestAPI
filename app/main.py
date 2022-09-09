@@ -1,8 +1,3 @@
-import os
-from .model import AccountModel
-from .schema import AccountSchema, UpdateAccountSchema
-from typing import Optional, List
-import asyncio
 from fastapi import FastAPI, status, Depends, HTTPException
 from fastapi.responses import Response
 from datetime import datetime
